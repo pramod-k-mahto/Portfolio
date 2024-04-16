@@ -2,9 +2,9 @@ import style from "./project.module.css";
 import img from "../image/blog.png";
 import food from "../image/food.png";
 import lab from "../image/lab.jpg";
-import quiz from "../image/quiz.jpeg";
+import quiz from "../image/quiz.png";
 import { useEffect } from "react";
-import movie from "../image/movie.png";
+import Recipe from "../image/RecipeWeb.png";
 
 function Project() {
   // const [windowValue1, setWindowValue1] = useState();
@@ -108,14 +108,14 @@ function Project() {
                   Food Delivery Website<i class="fa-solid fa-briefcase"></i>
                 </h3>
                 <p>
-                  "I spearheaded the development of an innovative food delivery
+                  I spearheaded the development of an innovative food delivery
                   platform that enables users to effortlessly explore menus,
                   reserve tables, and order food. Leveraging my front-end
                   skills, I designed a user-friendly interface, optimized the
                   cart management process, and implemented a seamless checkout
                   experience. This website redefines food delivery, offering a
                   convenient and enjoyable way for users to discover and order
-                  their favorite dishes."
+                  their favorite dishes.
                 </p>
                 <span>React</span>
                 <span>Tailwind Css</span>
@@ -135,27 +135,32 @@ function Project() {
               </div>
             </div>
           </div>
-
-
         </div>
 
-        {/* Project 2 movie */}
+        {/* Project 2 Quiz */}
 
         <div className={style.project_main_div}>
           <div className={style.Project_Text} id="movie_text">
             <div>
               <h3>
-                Movie Finder
+                Quiz Website
                 <i class="fa-solid fa-briefcase"></i>
               </h3>
               <p>
-                Developed a movie search web application using React.js and
-                Context API, allowing users to search for movies, view details,
-                and create watchlists. Implemented intuitive user interface and
-                optimized search functionality.
+                Experience an engaging quiz platform crafted with React, CSS,
+                Node.js, and MySQL. Delve into a wide array of quizzes, test
+                user knowledge, and instantly view scores. As an admin, manage
+                quizzes with ease—add new quizzes, update existing ones, and
+                remove outdated content. This platform offers a seamless user
+                interface and interactive design, ensuring a captivating
+                learning experience for all. Join today, embark on a journey of
+                knowledge, and elevate your learning experience!
               </p>
-              <span>React</span>
+              <span>HTML</span>
               <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Node Js</span>
+              <span>MySQL</span>
             </div>
             <div className={style.source_code}>
               <span>
@@ -168,37 +173,41 @@ function Project() {
               </span>
             </div>
           </div>
-          {/* className={style.project_odd_img} */}
           <div id="movie_img">
-            <img src={movie} className={style.blog} alt="" />
+            <img src={quiz} className={style.blog} alt="" />
           </div>
         </div>
 
-        {/* Project 3*/}
+        {/* Project 3 Recipe*/}
 
         <div className={style.project_main_div}>
           <div id="Quiz">
-            <img src={quiz} className={style.blog} alt="" />
+            <img src={Recipe} className={style.blog} alt="" />
           </div>
           <div id="quiz_text">
             {/* className={style.Project_Text} */}
             <div className={style.Project_Text}>
               <div>
                 <h3>
-                  Quiz Application
+                  Recipe Application
                   <i class="fa-solid fa-briefcase"></i>
                 </h3>
                 <p>
-                  Quiz Application with CRUD Functionality Developed a quiz
-                  application using pure HTML, CSS, and JavaScript, with MySQL
-                  for database management, allowing users to: Answer quiz
-                  questions across various categories. Receive instant feedback
-                  on answers. Implemented CRUD operations to manage quiz
-                  questions, including creating, reading, updating, and deleting
-                  questions from the database
+                  Experience a flavorful journey with a recipe platform,
+                  meticulously crafted using HTML, CSS, Node.js, and MySQL.
+                  Explore a vast collection of recipes, from traditional
+                  favorites to innovative dishes, and elevate your culinary
+                  skills. As an admin, effortlessly manage recipes—add new ones,
+                  update existing ones, and remove outdated entries. My
+                  platform boasts a user-friendly interface and captivating
+                  design, ensuring a delightful cooking experience for all. Join
+                  today, discover new flavors, and unleash your inner chef!
                 </p>
-                <span>Html</span>
+
+                <span>HTML</span>
                 <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Node Js</span>
                 <span>MySQL</span>
               </div>
               <div className={style.source_code}>
