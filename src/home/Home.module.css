@@ -1,0 +1,119 @@
+
+@keyframes rotate_div {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+
+
+  }
+}
+
+.main_div {
+  display: flex;
+  align-items: center;
+  height: 340px;
+  width: 1120px;
+  background-color:white;
+  /* color: white; */
+  margin: auto;
+  /* border: 2px solid black; */
+  /* border-radius: 2px; */
+  /* box-sizing: border-box; */
+  color: black;
+
+}
+
+.first_rotate{
+  /* border-radius: 5%; */
+
+  height: 370px;
+  width: 1149px;
+  background-color:white;
+  position: absolute;
+  margin: auto;
+  top: 53px;
+  left: 59px;
+  z-index: -1;
+  overflow: hidden;
+
+
+}
+.first_rotate::before{
+  content: " ";
+  animation:rotate_div 3s linear infinite ;
+  height: 20px;
+  width: 1500px;
+  background-color: rgb(15, 15, 15);
+  position: absolute;
+  /* margin: auto; */
+   top: 100px; 
+  right:-100px; 
+  overflow: hidden;
+  /* inset: 10px; */
+
+}
+.first_rotate::after{
+  content: " ";
+  position: absolute;
+  background-color:white;
+  inset: 10px;
+  /* border-radius: 15px; */
+  overflow: hidden;
+}
+
+
+
+@keyframes border {
+  0% {
+    border-radius: 41% 51% 41% 48% / 46% 45% 62% 62%;
+    top: 5px;
+    right: 5px;
+  }
+  50% {
+    border-radius: 95% 84% 39% 85% / 80% 79% 38% 55%;
+    left: 5px;
+    bottom: 5px;
+  }
+  75% {
+    border-radius: 48% 29% 39% 85% / 68% 42% 93% 85%;
+  }
+  100% {
+    top: 5px;
+    right: 5px;
+    border-radius: 41% 51% 41% 48% / 46% 45% 62% 62%;
+  }
+}
+.img_div {
+  height: 250px;
+  width: 250px;
+  background-image: url("../image/img2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 53% 41% 64% 29% / 33% 58% 46% 69%;
+  border: 5px solid rgb(26, 13, 13);
+  position: relative;
+  inset: 10px;
+  border: 20px solid rgb(244, 14, 213);
+  animation: border 4s linear infinite;
+  box-sizing: border-box;
+}
+
+.summary {
+  /* margin-top: 70px; */
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.skill {
+  /* border: 2px solid black; */
+  margin-top: 30px;
+}
+
+.skill span {
+  margin: 15px;
+}

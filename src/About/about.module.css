@@ -1,0 +1,79 @@
+.About_Main_Div {
+  margin-top: 200px;
+  height: 600px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+}
+.about_image {
+  background-image: url("../image/img3.jpg");
+  height: 250px;
+  width: 280px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* border: 2px solid black; */
+  border-radius: 5%;
+  margin: 5px;
+}
+
+.about_text {
+  margin-left: 25px;
+  /* border: 2px solid black; */
+  height: 300px;
+  width: 500px;
+  padding: 5px;
+  font-size: small;
+  text-align: justify;
+}
+@keyframes mymove {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.move2 {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 20px;
+  /* margin-left: 400px; */
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  animation: mymove 3s linear infinite;
+
+  position: relative;
+
+  left:197px ;
+  top: -17px;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+
+.micon{
+
+    height: 30px;
+    width: 30px;
+    /* border: 2px solid black; */
+    position: relative;
+    
+  left:232px ;
+  top: -84px;
+  border-radius: 50%;
+}
+
+.logo2{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}

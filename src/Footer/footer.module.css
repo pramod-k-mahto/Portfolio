@@ -1,0 +1,14 @@
+
+
+.footer{
+
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 99%;
+    text-align: center;
+    /* margin: 1px; */
+    padding-top: 12px;
+    /* border-radius: 2%; */
+    /* box-sizing: border-box; */
+}

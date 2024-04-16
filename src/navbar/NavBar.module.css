@@ -1,0 +1,24 @@
+
+.nav_div {
+
+    /* background-color: rgb(25, 223, 223); */
+    height: 50px;
+
+}
+
+.nav_div ul li{
+
+    list-style-type: none;
+    margin: 5px;
+    /* float: right; */
+    
+}
+.ScrollLink{
+    cursor: pointer;
+}
+
+.nav_div ul {
+
+    display: flex;
+    justify-content: end;
+}

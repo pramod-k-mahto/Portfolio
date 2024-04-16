@@ -1,0 +1,126 @@
+.project_main_div {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  margin: 70px 0px 90px 100px;
+  width: 85%;
+  overflow: hidden;
+  margin-bottom: 5px;
+  height: 400px;
+}
+
+.Project_Text span {
+  margin: 8px;
+  color: black;
+  font-weight: bold;
+}
+.source_code {
+  /* border: 2px solid black; */
+  text-align: left;
+  margin-top: 10px;
+}
+.source_code span {
+  margin: 20px;
+  padding-left: 45px;
+}
+
+.blog {
+  margin-top: 15px;
+  height: 200px;
+  width: 300px;
+  /* border: 2px solid black; */
+  border-radius: 5%;
+  margin-right: 15px;
+  position: relative;
+}
+
+.Project_title {
+  margin-left: 200px;
+}
+
+@keyframes project1 {
+  0% {
+    left: -1000px;
+    scrollbar-width: none;
+  }
+  100% {
+    left: 10px;
+    scrollbar-width: none;
+  }
+}
+.project5 {
+  animation: project1 0.5s linear;
+  /* border: 2px solid black; */
+  display: flex;
+  position: relative;
+  left: 10px;
+  /* overflow: hidden; */
+}
+
+@keyframes project2 {
+  0% {
+    right: -1000px;
+    scrollbar-width: none; 
+  }
+  100% {
+    right: 10px;
+    scrollbar-width: none; 
+  }
+}
+
+.Project_Text {
+  animation: project2 0.5s linear;
+  /* border: 2px solid black; */
+  height: 300px;
+  width: 400px;
+  margin-left: 17px;
+  text-align: center;
+  margin-right: 20px;
+  position: relative;
+}
+.first_Project {
+  color: red;
+  background-color: green;
+}
+
+@keyframes project_odd_img_ani {
+  0% {
+    right: -1000px;
+    scrollbar-width: none; 
+
+  }
+  100% {
+    right: -10px;
+    scrollbar-width: none; 
+
+  }
+}
+
+.project_odd_img {
+  animation: project_odd_img_ani 0.5s linear;
+  /* border: 2px solid black; */
+  display: flex;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+@keyframes project_odd_text_ani {
+  0% {
+    left: -1000px;
+    scrollbar-width: none;
+  }
+  100% {
+    left: 10px;
+    scrollbar-width: none;
+  }
+}
+.project_odd_text {
+  animation: project_odd_text_ani 0.5s linear;
+  /* border: 2px solid black; */
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+

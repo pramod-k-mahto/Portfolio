@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scrollbar-width: 0px;
+  /* color: rgb(135, 131, 131); */
+
+  /* overflow: hidden; */
+
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+i {
+  margin: 5px;
+}
+
+.fa-house {
+  color: red;
+}
+
+.fa-hand-peace {
+  color: rgb(232, 197, 146);
+}
+
+.fa-html5 {
+  color: rgb(250, 5, 13);
+  font-weight: bold;
+
+}
+.fa-css3 {
+  color: rgb(64, 64, 230);
+  font-weight: bold;
+
+}
+.fa-js {
+  color: rgb(246, 167, 21);
+  font-weight: bold;
+
+}
+.fa-react {
+  color: rgb(64, 64, 230);
+  font-weight: bold;
+
+}
+.fa-java {
+  color: rgb(11, 11, 248);
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+.fa-python {
+  color: rgb(238, 219, 12);
+  /* font-weight: bold; */
+
+}
+
+.fa-hashtag {
+  color: green;
+}
+
+.fa-location-dot {
+  color: rgb(9, 74, 239);
+  font-size: larger;
+}
+.fa-envelope {
+  color: rgb(9, 74, 239);
+}
+a{
+  text-decoration: none;
+}
