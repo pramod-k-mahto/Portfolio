@@ -58,7 +58,7 @@ function Project() {
     }
 
     // NepalMedicalLab project
-    if (data > 1950) {
+    if (data > 2000) {
       NepalMedicalLab_text.classList.add(style.project_odd_text);
       NepalMedicalLab_img.classList.add(style.project_odd_img);
     } else {
@@ -68,7 +68,7 @@ function Project() {
 
     // project 3 blog
 
-    if (data > 2450) {
+    if (data > 2550) {
       blog.classList.add(style.project5);
       blog_text.classList.add(style.Project_Text);
     } else {
