@@ -1,81 +1,96 @@
 import style from "./project.module.css";
-import img from "../image/blog.png";
+import blog from "../image/blog.png";
 import food from "../image/food.png";
-import lab from "../image/lab.jpg";
 import quiz from "../image/quiz.png";
+import Recipe from "../image/Recipe.png";
+import todo from "../image/todo.png";
+import job from "../image/job.png";
 import { useEffect } from "react";
-import Recipe from "../image/RecipeWeb.png";
 
 function Project() {
-  // const [windowValue1, setWindowValue1] = useState();
-
   const windowValue = () => {
     let data = document.documentElement.scrollTop;
-    // console.log(data);
-    let project = document.getElementById("project5");
-    let Project_Text = document.getElementById("Project_Text");
-    let quiz_text = document.getElementById("quiz_text");
-    let Quiz = document.getElementById("Quiz");
-    let blog = document.getElementById("blog");
-    let blog_text = document.getElementById("blog_text");
-    let movie_img = document.getElementById("movie_img");
-    let movie_text = document.getElementById("movie_text");
-    let NepalMedicalLab_img = document.getElementById("NepalMedicalLab_img");
-    let NepalMedicalLab_text = document.getElementById("NepalMedicalLab_text");
+    console.log(data);
+    // project 1 food
+    let food_img_id = document.getElementById("food_img_id");
+    let food_text_id = document.getElementById("food_text_id");
 
-    // NepalMedicalLab_img
+    // project 2 quiz
+    let quiz_text_id = document.getElementById("quiz_text_id");
+    let quiz_img_id = document.getElementById("quiz_img_id");
 
-    // project 1 job finder
+    // project 3 recipe
+    let recipe_img_id = document.getElementById("recipe_img_id");
+    let recipe_text_id = document.getElementById("recipe_text_id");
 
+    // project 4 todo
+    let todo_img_id = document.getElementById("todo_img_id");
+    let todo_text_id = document.getElementById("todo_text_id");
+
+    // project 5 job
+    let job_img_id = document.getElementById("job_img_id");
+    let job_text_id = document.getElementById("job_text_id");
+
+    // project 6 job
+    let blog_img_id = document.getElementById("blog_img_id");
+    let blog_text_id = document.getElementById("blog_text_id");
+
+    // project 1 food app
     if (data > 800) {
-      project.classList.add(style.project5);
-      Project_Text.classList.add(style.Project_Text);
+      food_img_id.classList.add(style.odd_Animation_img);
+      food_text_id.classList.add(style.odd_Animation_text);
     } else {
-      project.classList.remove(style.project5);
-      Project_Text.classList.remove(style.Project_Text);
+      food_img_id.classList.remove(style.odd_Animation_img);
+      food_text_id.classList.remove(style.odd_Animation_text);
     }
 
-    // console.log(data)
-    // project 2 movie finder
-
+    // project 2 quiz
     if (data > 1150) {
-      movie_img.classList.add(style.project_odd_img);
-      movie_text.classList.add(style.project_odd_text);
+      quiz_img_id.classList.add(style.even_Animation_img);
+      quiz_text_id.classList.add(style.even_Animation_text);
     } else {
-      movie_img.classList.remove(style.project_odd_img);
-      movie_text.classList.remove(style.project_odd_text);
+      quiz_img_id.classList.remove(style.even_Animation_img);
+      quiz_text_id.classList.remove(style.even_Animation_text);
     }
 
-    // project 3 quiz
-
+    // project 3 Recipe
     if (data > 1600) {
-      Quiz.classList.add(style.project5);
-      quiz_text.classList.add(style.Project_Text);
-      // console.log(quiz_text , "Quiz");
+      recipe_img_id.classList.add(style.odd_Animation_img);
+      recipe_text_id.classList.add(style.odd_Animation_text);
     } else {
-      Quiz.classList.remove(style.project5);
-      quiz_text.classList.remove(style.Project_Text);
+      recipe_img_id.classList.remove(style.odd_Animation_img);
+      recipe_text_id.classList.remove(style.odd_Animation_text);
     }
 
-    // NepalMedicalLab project
+    // project 4 todo
     if (data > 2000) {
-      NepalMedicalLab_text.classList.add(style.project_odd_text);
-      NepalMedicalLab_img.classList.add(style.project_odd_img);
+      todo_text_id.classList.add(style.even_Animation_text);
+      todo_img_id.classList.add(style.even_Animation_img);
     } else {
-      NepalMedicalLab_text.classList.remove(style.project_odd_text);
-      NepalMedicalLab_img.classList.remove(style.project_odd_img);
+      todo_text_id.classList.remove(style.even_Animation_text);
+      todo_img_id.classList.remove(style.even_Animation_img);
     }
 
-    // project 3 blog
-
-    if (data > 2550) {
-      blog.classList.add(style.project5);
-      blog_text.classList.add(style.Project_Text);
+    // project 5  job finder
+    if (data > 2820) {
+      job_img_id.classList.add(style.odd_Animation_img);
+      job_text_id.classList.add(style.odd_Animation_text);
     } else {
-      blog.classList.remove(style.project5);
-      blog_text.classList.remove(style.Project_Text);
+      job_img_id.classList.remove(style.odd_Animation_img);
+      job_text_id.classList.remove(style.odd_Animation_text);
+    }
+
+    // project 6  Blog app
+
+    if (data > 3220) {
+      blog_img_id.classList.add(style.even_Animation_img);
+      blog_text_id.classList.add(style.even_Animation_text);
+    } else {
+      blog_text_id.classList.remove(style.even_Animation_text);
+      blog_img_id.classList.remove(style.even_Animation_img);
     }
   };
+
   useEffect(() => {
     window.addEventListener("scroll", windowValue);
     return () => {
@@ -85,8 +100,9 @@ function Project() {
 
   return (
     <>
-      <div className={style.project_head} id="project">
-        <div className={style.Project_title}>
+      <div className={style.parent_div} id="parent_div_id">
+        {/* <br /> */}
+        <div className={style.parent_header}>
           <h2>Project</h2>
           <h2>
             Each Project is a Unique piece of development
@@ -94,15 +110,17 @@ function Project() {
           </h2>
         </div>
 
-        {/* Project 1 */}
+        {/* Project 1  food */}
 
-        <div className={style.project_main_div}>
-          <div id="project5">
-            <img src={food} className={style.blog} alt="" />
+        <div className={style.all_item_Outer_div}>
+          <div id="food_img_id">
+            <img src={food} className={style.same_img_class} alt="" />
           </div>
 
-          <div id="Project_Text" className={style.Project_Text}>
-            <div className={style.Project_Text}>
+          <div id="food_text_id">
+
+            <div className={style.same_text_class}>
+
               <div>
                 <h3>
                   Food Delivery Website<i class="fa-solid fa-briefcase"></i>
@@ -119,7 +137,10 @@ function Project() {
                 </p>
                 <span>React</span>
                 <span>Tailwind Css</span>
+                
               </div>
+
+
               <div className={style.source_code}>
                 <span>
                   <a href="https://github.com/pramod-k-mahto/FoodDeliveryWebsite">
@@ -133,15 +154,18 @@ function Project() {
                   </a>
                 </span>
               </div>
+
             </div>
+
+
           </div>
         </div>
 
         {/* Project 2 Quiz */}
 
-        <div className={style.project_main_div}>
-          <div className={style.Project_Text} id="movie_text">
-            <div>
+        <div className={style.all_item_Outer_div}>
+          <div id="quiz_text_id">
+            <div  className={style.same_text_class}>
               <h3>
                 Quiz Website
                 <i class="fa-solid fa-briefcase"></i>
@@ -161,32 +185,38 @@ function Project() {
               <span>JavaScript</span>
               <span>Node Js</span>
               <span>MySQL</span>
-            </div>
-            <div className={style.source_code}>
+
+
+              <div className={style.source_code}>
               <span>
-                <a href="https://github.com/pramod-k-mahto/ReactPrject/tree/master/movies">
+                <a href="https://github.com/pramod-k-mahto/quizapp">
                   Code <i class="fa-brands fa-github"></i>
                 </a>
               </span>
               <span>
-                Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <a href="https://nepquiz.vercel.app/">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
               </span>
             </div>
+            </div>
+            
           </div>
-          <div id="movie_img">
-            <img src={quiz} className={style.blog} alt="" />
+          <div id="quiz_img_id">
+            <img src={quiz} className={style.same_img_class} alt="" />
           </div>
         </div>
 
         {/* Project 3 Recipe*/}
 
-        <div className={style.project_main_div}>
-          <div id="Quiz">
-            <img src={Recipe} className={style.blog} alt="" />
+        <div className={style.all_item_Outer_div}>
+          <div id="recipe_img_id">
+            <img src={Recipe} className={style.same_img_class} alt="" />
           </div>
-          <div id="quiz_text">
-            {/* className={style.Project_Text} */}
-            <div className={style.Project_Text}>
+          <div id="recipe_text_id">
+            <div className={style.same_text_class}>
+
               <div>
                 <h3>
                   Recipe Application
@@ -198,10 +228,10 @@ function Project() {
                   Explore a vast collection of recipes, from traditional
                   favorites to innovative dishes, and elevate your culinary
                   skills. As an admin, effortlessly manage recipes—add new ones,
-                  update existing ones, and remove outdated entries. My
-                  platform boasts a user-friendly interface and captivating
-                  design, ensuring a delightful cooking experience for all. Join
-                  today, discover new flavors, and unleash your inner chef!
+                  update existing ones, and remove outdated entries. My platform
+                  boasts a user-friendly interface and captivating design,
+                  ensuring a delightful cooking experience for all. Join today,
+                  discover new flavors, and unleash your inner chef!
                 </p>
 
                 <span>HTML</span>
@@ -210,74 +240,130 @@ function Project() {
                 <span>Node Js</span>
                 <span>MySQL</span>
               </div>
+
               <div className={style.source_code}>
                 <span>
-                  Code <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/pramod-k-mahto/Recipe-App-frontend-">
+                    Code <i class="fa-brands fa-github"></i>
+                  </a>
                 </span>
                 <span>
-                  Live Demo
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <a href="https://neprecipe.vercel.app/">
+                    Live Demo
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
                 </span>
               </div>
             </div>
+
+
           </div>
+
+
+
         </div>
 
-        {/*NepalMedicalLab E-Commerce Platform 4 */}
+        {/*Todo do App 4 */}
 
-        <div className={style.project_main_div}>
-          <div className={style.Project_Text} id="NepalMedicalLab_text">
-            <div>
+        <div className={style.all_item_Outer_div}>
+          <div  id="todo_text_id">
+            <div className={style.same_text_class}>
               <h3>
-                NepalMedicalLab E-Commerce Platform
+                Todo App
                 <i class="fa-solid fa-briefcase"></i>
               </h3>
               <p>
-                Built an e-commerce platform using React.js with features like
-                dynamic routing, cart management, and user-friendly interface.
-                Users can browse and purchase medical equipment with ease,
-                enhancing the online shopping experience. Growth and to make a
-                positive impact.
+                Experience a streamlined organizational tool with our ToDo
+                application, designed with HTML, CSS, Node.js, and MySQL. Easily
+                manage your tasks with a user-friendly interface, add new tasks,
+                update existing ones, and remove completed items effortlessly.
+                Stay organized and productive with our intuitive design. Join
+                today, enhance your task management, and achieve your goals
+                efficiently!
+              </p>
+
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Node Js</span>
+              <span>MySQL</span>
+
+              <div className={style.source_code}>
+              <span>
+                <a href="https://github.com/pramod-k-mahto/todo-fronted">
+                  Code <i class="fa-brands fa-github"></i>
+                </a>
+              </span>
+              <span>
+                <a href="https://neptodo.vercel.app/">
+                  Live Demo
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </span>
+            </div>
+            </div>
+          </div>
+          <div id="todo_img_id">
+            <img src={todo} className={style.same_img_class} alt="" />
+          </div>
+        </div>
+
+        {/* Job finder website 5 */}
+
+        <div className={style.all_item_Outer_div}>
+          <div className={style.project5} id="job_img_id">
+            <img src={job} className={style.same_img_class} alt="" />
+          </div>
+
+          <div id="job_text_id" className={style.same_text_class}>
+            <div>
+              <h3>
+                Job Finder <i class="fa-solid fa-blog"></i>
+              </h3>
+              <p>
+                Explore a cutting-edge job search platform with our Job Finder
+                application, featuring job listings and effortless applications,
+                all designed to streamline your job search experience. Join
+                today and embark on a rewarding career journey!
               </p>
               <span>React</span>
               <span>CSS</span>
-              {/* <span>MongoDb</span> */}
+              <span>NOde Js</span>
+              <span>MongoDb</span>
             </div>
             <div className={style.source_code}>
               <span>
-                Code <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/pramod-k-mahto/job-Finder">
+                  Code <i class="fa-brands fa-github"></i>
+                </a>
               </span>
               <span>
-                Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                {/* Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i> */}
               </span>
             </div>
           </div>
-          <div id="NepalMedicalLab_img">
-            <img src={lab} className={style.blog} alt="" />
-          </div>{" "}
         </div>
 
-        {/* Blog website 5 */}
+        {/* Project  Blog */}
 
-        <div className={style.project_main_div}>
-          <div className={style.project5} id="blog">
-            <img src={img} className={style.blog} alt="" />
-          </div>
-
-          <div id="blog_text" className={style.Project_Text}>
+        <div className={style.all_item_Outer_div}>
+          <div className={style.same_text_class} id="blog_text_id">
             <div>
               <h3>
-                Blog website <i class="fa-solid fa-blog"></i>
+                Blog Website
+                <i class="fa-solid fa-briefcase"></i>
               </h3>
               <p>
-                A blog website was developed using the Django framework with an
-                SQLite database. The website includes a user authentication
-                system with signup, login, and logout functionality. Users can
-                view, upload, edit, and delete blog posts.
+                Experience a dynamic blogging platform built with Django, CSS,
+                Python, andSqlite . Dive into a diverse range of articles,
+                explore various topics, and engage with insightful content. As
+                an admin, effortlessly manage blog posts—create new ones, update
+                existing articles, and remove outdated content.
               </p>
               <span>Django</span>
               <span>CSS</span>
-              {/* <span>MongoDb</span> */}
+              <span>Python</span>
+              <span>Sqlite</span>
             </div>
             <div className={style.source_code}>
               <span>
@@ -286,9 +372,12 @@ function Project() {
                 </a>
               </span>
               <span>
-                Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                {/* Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i> */}
               </span>
             </div>
+          </div>
+          <div id="blog_img_id">
+            <img src={blog} className={style.same_img_class} alt="" />
           </div>
         </div>
       </div>
