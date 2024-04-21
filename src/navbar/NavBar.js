@@ -29,7 +29,7 @@ function NavBar() {
 
           <li>
             <ScrollLink
-              to="project"
+              to="parent_div_id"
               smooth={true}
               duration={500}
               className={style.ScrollLink}

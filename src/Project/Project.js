@@ -143,12 +143,12 @@ function Project() {
 
               <div className={style.source_code}>
                 <span>
-                  <a href="https://github.com/pramod-k-mahto/FoodDeliveryWebsite">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/FoodDeliveryWebsite">
                     Code <i class="fa-brands fa-github"></i>
                   </a>
                 </span>
                 <span>
-                  <a href="https://yummyfoodnepal.vercel.app/">
+                  <a target="_blank" rel="noopener noreferrer" href="https://yummyfoodnepal.vercel.app/">
                     Live Demo
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
@@ -189,12 +189,12 @@ function Project() {
 
               <div className={style.source_code}>
               <span>
-                <a href="https://github.com/pramod-k-mahto/quizapp">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/quizapp">
                   Code <i class="fa-brands fa-github"></i>
                 </a>
               </span>
               <span>
-                <a href="https://nepquiz.vercel.app/">
+                <a target="_blank" rel="noopener noreferrer" href="https://nepquiz.vercel.app/">
                   Live Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
@@ -243,12 +243,12 @@ function Project() {
 
               <div className={style.source_code}>
                 <span>
-                  <a href="https://github.com/pramod-k-mahto/Recipe-App-frontend-">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/Recipe-App-frontend-">
                     Code <i class="fa-brands fa-github"></i>
                   </a>
                 </span>
                 <span>
-                  <a href="https://neprecipe.vercel.app/">
+                  <a target="_blank" rel="noopener noreferrer" href="https://neprecipe.vercel.app/">
                     Live Demo
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
@@ -290,12 +290,12 @@ function Project() {
 
               <div className={style.source_code}>
               <span>
-                <a href="https://github.com/pramod-k-mahto/todo-fronted">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/todo-fronted">
                   Code <i class="fa-brands fa-github"></i>
                 </a>
               </span>
               <span>
-                <a href="https://neptodo.vercel.app/">
+                <a target="_blank" rel="noopener noreferrer" href="https://neptodo.vercel.app/">
                   Live Demo
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
@@ -333,7 +333,7 @@ function Project() {
             </div>
             <div className={style.source_code}>
               <span>
-                <a href="https://github.com/pramod-k-mahto/job-Finder">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/job-Finder">
                   Code <i class="fa-brands fa-github"></i>
                 </a>
               </span>
@@ -367,7 +367,7 @@ function Project() {
             </div>
             <div className={style.source_code}>
               <span>
-                <a href="https://github.com/pramod-k-mahto/Django-college-individual-project">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/Django-college-individual-project">
                   Code <i class="fa-brands fa-github"></i>
                 </a>
               </span>
