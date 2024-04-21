@@ -23,10 +23,25 @@
   /* border: 2px solid black; */
   height: 300px;
   width: 500px;
-  padding: 5px;
+  /* padding: 5px; */
   font-size: small;
-  text-align: justify;
+  /* text-align: ; */
+  display: flex;
+  flex-direction: column;
+  /* line-height: 15px; */
+  font-family: serif;
+  font-size: medium;
 }
+.about_text h2 {
+  color: rgb(14, 193, 74);
+  margin: 0.5px;
+}
+.text {
+  text-indent: 5px ;
+  /* margin: 0.5px; */
+  font-size: medium;
+}
+
 @keyframes mymove {
   0% {
     transform: rotate(0deg);
@@ -48,7 +63,7 @@
 
   position: relative;
 
-  left:197px ;
+  left: 197px;
   top: -17px;
 }
 
@@ -58,22 +73,19 @@
   /* border: 2px solid black; */
 }
 
+.micon {
+  height: 30px;
+  width: 30px;
+  /* border: 2px solid black; */
+  position: relative;
 
-.micon{
-
-    height: 30px;
-    width: 30px;
-    /* border: 2px solid black; */
-    position: relative;
-    
-  left:232px ;
+  left: 232px;
   top: -84px;
   border-radius: 50%;
 }
 
-.logo2{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-
+.logo2 {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
 }

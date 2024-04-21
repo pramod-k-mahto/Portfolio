@@ -13,10 +13,10 @@ function Home() {
                 Web Developer <i className="fa-regular fa-hand-peace"></i>
               </h1>
               <p>
-                Hi, I'm Pramod, a passionate and enthusiastic web developer.
+                Hi, I'm Pramod, a Passionate and Enthusiastic Web Developer.
                 <br />
-                Based in Kathmandu, Nepal.
-                <i className="fa-solid fa-house"></i>
+                Based in Kathmandu, Nepal
+                <i className="fa-solid fa-house"></i>.
               </p>
               <a href="https://www.linkedin.com/in/pramod-mahto-4309aa222/">
                 <i className="fa-brands fa-linkedin"></i>

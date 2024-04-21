@@ -10,7 +10,7 @@ import { useEffect } from "react";
 function Project() {
   const windowValue = () => {
     let data = document.documentElement.scrollTop;
-    console.log(data);
+    // console.log(data);
     // project 1 food
     let food_img_id = document.getElementById("food_img_id");
     let food_text_id = document.getElementById("food_text_id");

@@ -11,7 +11,7 @@
   /* overflow-y: auto; */
 
 }
-p{
+.all_item_Outer_div p{
   width: 350px;
   padding: 2px;
   /* border: 2px solid rgb(242, 10, 10); */
