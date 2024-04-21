@@ -118,46 +118,44 @@ function Project() {
           </div>
 
           <div id="food_text_id">
-
             <div className={style.same_text_class}>
-
               <div>
                 <h3>
                   Food Delivery Website<i class="fa-solid fa-briefcase"></i>
                 </h3>
                 <p>
-                  I spearheaded the development of an innovative food delivery
-                  platform that enables users to effortlessly explore menus,
-                  reserve tables, and order food. Leveraging my front-end
-                  skills, I designed a user-friendly interface, optimized the
-                  cart management process, and implemented a seamless checkout
-                  experience. This website redefines food delivery, offering a
-                  convenient and enjoyable way for users to discover and order
-                  their favorite dishes.
+                  Food delivery platform enabling users to explore menus,
+                  reserve tables, and order food. Managed cart processes and
+                  implemented a seamless checkout experience. This website
+                  redefines food delivery, offering a convenient and enjoyable
+                  way for users to discover and order their favorite dishes.
                 </p>
                 <span>React</span>
                 <span>Tailwind Css</span>
-                
               </div>
-
 
               <div className={style.source_code}>
                 <span>
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/FoodDeliveryWebsite">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/pramod-k-mahto/FoodDeliveryWebsite"
+                  >
                     Code <i class="fa-brands fa-github"></i>
                   </a>
                 </span>
                 <span>
-                  <a target="_blank" rel="noopener noreferrer" href="https://yummyfoodnepal.vercel.app/">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://yummyfoodnepal.vercel.app/"
+                  >
                     Live Demo
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </span>
               </div>
-
             </div>
-
-
           </div>
         </div>
 
@@ -165,20 +163,18 @@ function Project() {
 
         <div className={style.all_item_Outer_div}>
           <div id="quiz_text_id">
-            <div  className={style.same_text_class}>
+            <div className={style.same_text_class}>
               <h3>
                 Quiz Website
                 <i class="fa-solid fa-briefcase"></i>
               </h3>
               <p>
-                Experience an engaging quiz platform crafted with React, CSS,
-                Node.js, and MySQL. Delve into a wide array of quizzes, test
-                user knowledge, and instantly view scores. As an admin, manage
-                quizzes with ease—add new quizzes, update existing ones, and
-                remove outdated content. This platform offers a seamless user
-                interface and interactive design, ensuring a captivating
-                learning experience for all. Join today, embark on a journey of
-                knowledge, and elevate your learning experience!
+                Quiz platform crafted with React, CSS, Node.js, and MySQL. Delve
+                into a wide array of quizzes, test user knowledge, and instantly
+                view scores. As an admin, manage quizzes with ease—add new
+                quizzes, update existing ones, and remove outdated content. The
+                platform offers a seamless user interface and interactive
+                design, ensuring a captivating learning experience for all.
               </p>
               <span>HTML</span>
               <span>CSS</span>
@@ -186,22 +182,28 @@ function Project() {
               <span>Node Js</span>
               <span>MySQL</span>
 
-
               <div className={style.source_code}>
-              <span>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/quizapp">
-                  Code <i class="fa-brands fa-github"></i>
-                </a>
-              </span>
-              <span>
-                <a target="_blank" rel="noopener noreferrer" href="https://nepquiz.vercel.app/">
-                  Live Demo
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </span>
+                <span>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/pramod-k-mahto/quizapp"
+                  >
+                    Code <i class="fa-brands fa-github"></i>
+                  </a>
+                </span>
+                <span>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://nepquiz.vercel.app/"
+                  >
+                    Live Demo
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </span>
+              </div>
             </div>
-            </div>
-            
           </div>
           <div id="quiz_img_id">
             <img src={quiz} className={style.same_img_class} alt="" />
@@ -216,22 +218,17 @@ function Project() {
           </div>
           <div id="recipe_text_id">
             <div className={style.same_text_class}>
-
               <div>
                 <h3>
                   Recipe Application
                   <i class="fa-solid fa-briefcase"></i>
                 </h3>
                 <p>
-                  Experience a flavorful journey with a recipe platform,
-                  meticulously crafted using HTML, CSS, Node.js, and MySQL.
+                  Recipe platform crafted with HTML, CSS, Node.js, and MySQL.
                   Explore a vast collection of recipes, from traditional
-                  favorites to innovative dishes, and elevate your culinary
+                  favorites to innovative dishes, and elevate users' culinary
                   skills. As an admin, effortlessly manage recipes—add new ones,
-                  update existing ones, and remove outdated entries. My platform
-                  boasts a user-friendly interface and captivating design,
-                  ensuring a delightful cooking experience for all. Join today,
-                  discover new flavors, and unleash your inner chef!
+                  update existing ones, and remove outdated entries.
                 </p>
 
                 <span>HTML</span>
@@ -243,43 +240,43 @@ function Project() {
 
               <div className={style.source_code}>
                 <span>
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/Recipe-App-frontend-">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/pramod-k-mahto/Recipe-App-frontend-"
+                  >
                     Code <i class="fa-brands fa-github"></i>
                   </a>
                 </span>
                 <span>
-                  <a target="_blank" rel="noopener noreferrer" href="https://neprecipe.vercel.app/">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://neprecipe.vercel.app/"
+                  >
                     Live Demo
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                 </span>
               </div>
             </div>
-
-
           </div>
-
-
-
         </div>
 
         {/*Todo do App 4 */}
 
         <div className={style.all_item_Outer_div}>
-          <div  id="todo_text_id">
+          <div id="todo_text_id">
             <div className={style.same_text_class}>
               <h3>
                 Todo App
                 <i class="fa-solid fa-briefcase"></i>
               </h3>
               <p>
-                Experience a streamlined organizational tool with our ToDo
-                application, designed with HTML, CSS, Node.js, and MySQL. Easily
-                manage your tasks with a user-friendly interface, add new tasks,
-                update existing ones, and remove completed items effortlessly.
-                Stay organized and productive with our intuitive design. Join
-                today, enhance your task management, and achieve your goals
-                efficiently!
+                ToDo application designed with HTML, CSS, Node.js, and MySQL.
+                Easily manage your tasks with a user-friendly interface, add new
+                tasks, update existing ones, and remove completed items
+                effortlessly.
               </p>
 
               <span>HTML</span>
@@ -289,18 +286,26 @@ function Project() {
               <span>MySQL</span>
 
               <div className={style.source_code}>
-              <span>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/todo-fronted">
-                  Code <i class="fa-brands fa-github"></i>
-                </a>
-              </span>
-              <span>
-                <a target="_blank" rel="noopener noreferrer" href="https://neptodo.vercel.app/">
-                  Live Demo
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-              </span>
-            </div>
+                <span>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/pramod-k-mahto/todo-fronted"
+                  >
+                    Code <i class="fa-brands fa-github"></i>
+                  </a>
+                </span>
+                <span>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://neptodo.vercel.app/"
+                  >
+                    Live Demo
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
           <div id="todo_img_id">
@@ -321,10 +326,9 @@ function Project() {
                 Job Finder <i class="fa-solid fa-blog"></i>
               </h3>
               <p>
-                Explore a cutting-edge job search platform with our Job Finder
-                application, featuring job listings and effortless applications,
-                all designed to streamline your job search experience. Join
-                today and embark on a rewarding career journey!
+                Job Finder application featuring job listings and effortless
+                applications, all designed to streamline the job search
+                experience.
               </p>
               <span>React</span>
               <span>CSS</span>
@@ -333,7 +337,11 @@ function Project() {
             </div>
             <div className={style.source_code}>
               <span>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/job-Finder">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/pramod-k-mahto/job-Finder"
+                >
                   Code <i class="fa-brands fa-github"></i>
                 </a>
               </span>
@@ -354,11 +362,11 @@ function Project() {
                 <i class="fa-solid fa-briefcase"></i>
               </h3>
               <p>
-                Experience a dynamic blogging platform built with Django, CSS,
-                Python, andSqlite . Dive into a diverse range of articles,
-                explore various topics, and engage with insightful content. As
-                an admin, effortlessly manage blog posts—create new ones, update
-                existing articles, and remove outdated content.
+                Blog platform built with Django, CSS, Python, and SQLite. Dive
+                into a diverse range of articles, explore various topics, and
+                engage with insightful content. As an admin, effortlessly manage
+                blog posts—create new ones, update existing articles, and remove
+                outdated content.
               </p>
               <span>Django</span>
               <span>CSS</span>
@@ -367,7 +375,11 @@ function Project() {
             </div>
             <div className={style.source_code}>
               <span>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/pramod-k-mahto/Django-college-individual-project">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/pramod-k-mahto/Django-college-individual-project"
+                >
                   Code <i class="fa-brands fa-github"></i>
                 </a>
               </span>
