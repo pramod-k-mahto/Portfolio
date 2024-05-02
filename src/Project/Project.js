@@ -340,7 +340,7 @@ function Project() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/pramod-k-mahto/job-Finder"
+                  href="https://github.com/pramod-k-mahto/jobfinder.git"
                 >
                   Code <i class="fa-brands fa-github"></i>
                 </a>
