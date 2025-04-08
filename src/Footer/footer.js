@@ -1,20 +1,11 @@
-import style from './footer.module.css'
+import style from './footer.module.css';
 
-
-
-function Footer(){
-
-    return(
-        <>
-
-        <div className={style.footer}>
-        <span>
-            Copyright&copy; 2024.All right are reserved
-        </span>
-        </div>
-        
-        </>
-    )
+function Footer() {
+  return (
+    <footer className={style.footer}>
+      <span>Copyright&copy; 2024. All rights reserved by Pramod</span>
+    </footer>
+  );
 }
 
 export default Footer;
